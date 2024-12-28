@@ -16,10 +16,10 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#d4becc",
-        color: "#7d5782",
+        background: "rgb(45 46 49)",
+        color: "#000000",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #7d5782" }}
+      contentArrowStyle={{ borderRight: "7px solid rgb(49, 48, 52)" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -33,11 +33,11 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-[#7d5782] text-[24px] font-bold">
+        <h3 className="text-[#ffffff] text-[24px] font-bold">
           {experience.title}
         </h3>
         <p
-          className="text-[#7d5782] text-[18px] font-semibold"
+          className="text-[#ffffff] text-[18px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -48,7 +48,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-[#7d5782] text-[17px] pl-1 tracking-wider"
+            className="text-[#ffffff] text-[17px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -61,10 +61,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
+      <motion.div>
         <h3 style={{ color: "black", fontWeight: "500", fontSize: "36px" }}>
           Work Experience.
         </h3>

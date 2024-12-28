@@ -131,7 +131,7 @@ const experiences = [
     title: "Software Engineering Research Assistant (Co-op)",
     company_name: "Healthcare Systems R&A Inc.\nRDTS Project",
     icon: healthcare,
-    iconBg: "#FFFFFF",
+    iconBg: "#454545",
     date: "May 2023 - August 2023",
     points: [
       "Implemented plot visualization and data representation using Python and OpenCV.",
@@ -145,7 +145,7 @@ const experiences = [
     title: "Software Engineering Research Assistant (Co-op)",
     company_name: "Healthcare Systems R&A Inc.\nBCI Project",
     icon: healthcare,
-    iconBg: "#FFFFFF",
+    iconBg: "#454545",
     date: "August 2023 - September 2023",
     points: [
       "Conducted research and tuned CNN, RNN, and XGBoost models to classify EEG data into motor imageries, achieving significant accuracy improvements.",
@@ -157,7 +157,7 @@ const experiences = [
     title: "Software Engineering Research Assistant (Co-op)",
     company_name: "Healthcare Systems R&A Inc.\nMobileHealth Project",
     icon: healthcare,
-    iconBg: "#FFFFFF",
+    iconBg: "#454545",
     date: "September 2023 - December 2023",
     points: [
       "Developed and tested multiple machine learning models, integrating predictive models into a mobile app to aid in early diagnosis.",
@@ -170,7 +170,7 @@ const experiences = [
     title: "Software Engineering Research Assistant (Co-op)",
     company_name: "Healthcare Systems R&A Inc.\nCLBP Project",
     icon: healthcare,
-    iconBg: "#FFFFFF",
+    iconBg: "#454545",
     date: "May 2024 - September 2024",
     points: [
       "Increased 25-Landmark Model accuracy using customized data augmentation methods.",
@@ -184,7 +184,7 @@ const experiences = [
     title: "Software Developer (Part-Time)",
     company_name: "WIMTACH\nAPCI Project",
     icon: wimtach,
-    iconBg: "#9a919e",
+    iconBg: "#454545",
     date: "May 2024 - August 2024",
     points: [
       "Developed a cross-platform mobile app using React Native with backend functionalities in Python.",
@@ -198,7 +198,7 @@ const experiences = [
     title: "Software Developer (Part-Time)",
     company_name: "WIMTACH\nAvondx Project",
     icon: wimtach,
-    iconBg: "#9a919e",
+    iconBg: "#454545",
     date: "August 2024 - October 2024",
     points: [
       "Utilized Silero and Rnnoise models for noise reduction and voice activity detection on iOS devices.",
@@ -212,7 +212,7 @@ const experiences = [
     title: "Software Engineering Technology - Artificial Intelligence Student",
     company_name: "Centennial College",
     icon: Centennial,
-    iconBg: "#E6DEDD",
+    iconBg: "#454545",
     date: "September 2021 - December 2024",
     points: [
       "Finished Advanced Diploma with high honours GPA and three terms co-op experience",

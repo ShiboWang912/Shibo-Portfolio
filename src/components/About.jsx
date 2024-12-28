@@ -10,7 +10,7 @@ import transcript from "../assets/ShiboWang_Transcript.pdf";
 import diploma from "../assets/parchment.pdf"; 
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[180px] h-[180px] w-full">
+  <Tilt className="xs:w-[180px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full p-[1px] rounded-[20px]"
@@ -72,18 +72,12 @@ const About = () => {
         </ul>
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-2">
+      <div className="mt-10 flex flex-wrap gap-2">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <motion.div variants={textVariant()}>
         <br />
         <br />
