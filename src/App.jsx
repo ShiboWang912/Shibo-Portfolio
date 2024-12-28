@@ -14,7 +14,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0  bg-gradient-to-tr from-[#9ca3af] to-[#dbdfe5]">
+      <div className="relative z-0  bg-gradient-to-tr from-[#E0E3ED] to-[#DEE0EC]">
         <Navbar />
         <Hero />
         <About />

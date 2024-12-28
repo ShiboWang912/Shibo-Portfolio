@@ -29,6 +29,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      className="earth-img"
     >
       <hemisphereLight intensity={1.15} groundColor="black" />
       <spotLight

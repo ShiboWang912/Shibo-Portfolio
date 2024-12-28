@@ -7,7 +7,7 @@ import resume from "../assets/ShiboWang-Resume.pdf";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[600px] mx-auto">
+    <section className="relative w-full h-[600px] mx-auto hero-section">
       {/* Brief Summary */}
       <div
         className={`${styles.paddingX} absolute inset-0 top-[180px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
@@ -46,9 +46,6 @@ const Hero = () => {
               <img src="resume.png" className="h-[35px]" />
             </button>
           </a>
-        </div>
-        <div>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
         </div>
         <ShiboPhoto />
       </div>
