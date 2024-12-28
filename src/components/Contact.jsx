@@ -6,6 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+//Y-FWD7gXg50mHMBq1
+//template_jetl5zs
+//service_3hdamkq
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_e6zkb4e",
-        "template_b0kb3n4",
+        "service_3hdamkq",
+        "template_jetl5zs",
         {
           from_name: form.name,
           to_name: "Shibo",
