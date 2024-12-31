@@ -222,7 +222,7 @@ const experiences = [
 
 
 
-const projects = [
+const projects1 = [
   {
     name: "Rapid Diagnostic Test (RDT) Strip Image Analyzer Desktop Software Development",
     description:
@@ -270,6 +270,9 @@ const projects = [
     image: mobileHealth,  
     
   },
+ ,
+];
+const projects2 = [
   {
     name: "Chronic Lower Back Pain Detection & Correction Mobile APP Development",
     description:
@@ -337,5 +340,4 @@ const projects = [
  ,
 ];
 
-
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects1, projects2 };

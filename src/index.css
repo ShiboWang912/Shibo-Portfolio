@@ -32,6 +32,14 @@
     max-width: 50%;
   }
 }
+@media only screen and (min-width: 1000px) {
+  .service-card-list{
+    flex-wrap: nowrap;
+  }
+  .service-card{
+    min-height: 230px;
+  }
+}
 .earth-img{
   filter: hue-rotate(221deg) saturate(0.5) brightness(0.8);
 }
