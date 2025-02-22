@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import ShiboPhoto from "./ShiboPhoto";
-import resume from "../assets/ShiboWang-Resume.pdf"; 
+import resume from "../assets/ShiboWang.pdf"; 
 
 const Hero = () => {
   return (

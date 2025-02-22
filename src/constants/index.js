@@ -134,11 +134,16 @@ const experiences = [
     iconBg: "#454545",
     date: "May 2023 - August 2023",
     points: [
-      "Implemented plot visualization and data representation using Python and OpenCV.",
-      "Developed baseline functionality for noise reduction and increased pixel intensity for better image clarity.",
-      "Automated image processing workflows to enhance efficiency.",
-      "Conducted user testing to refine application features based on feedback.",
-      "Enhanced accuracy and reliability of band detection and quantification by 50% using OpenCV."
+      "Scanned image files for visualization and data analysis",
+      "Developed noise reduction and pixel enhancement functions to improve image clarity.",
+      "Created backend algorithms for data interpretation and automated PDF report generation.",
+      "Implemented Tkinter Canvas for precise manual image selection within the app interface.",
+      "Developed color difference baselines to enhance image contrast, increasing accuracy by 50% through user feedback and A/B testing.",
+      "Automated image processing workflows using OpenCV AI, enabling efficient scanning and data extraction.",
+      "Generated user-friendly charts and downloadable reports for clear data presentation.",
+      "Conducted user testing and refined the UI based on customer feedback to improve usability.",
+      "Documented project processes, hosted scrum meetings, and collaborated cross-functionally.",
+      "Led a team of two to successfully complete the AI automated pipeline on time, demonstrating effective leadership and teamwork.",
     ],
   },
   {
@@ -163,7 +168,7 @@ const experiences = [
       "Developed and tested multiple machine learning models, integrating predictive models into a mobile app to aid in early diagnosis.",
       "Conducted data exploration and visualization using the DUKECATHR dataset, highlighting imbalances for better understanding.",
       "Collaborated with cross-functional teams to integrate predictive models into the mobile app.",
-      "Improved model performance by balancing accuracy, precision, recall, and F1 values, enhancing model reliability by 30%."
+      "Improved model reliability by 30% through advanced fine-tuning techniques, including Bayesian search hyperparameter tuning and principal component analysis (PCA)."
     ],
   },
   {
@@ -175,9 +180,8 @@ const experiences = [
     points: [
       "Increased 25-Landmark Model accuracy using customized data augmentation methods.",
       "Implemented custom methods to enhance masked image heatmap keypoint detection models.",
-      "Researched and applied advanced machine learning techniques to improve detection accuracy.",
       "Coordinated with healthcare professionals to refine detection algorithms and user interfaces.",
-      "Improved model accuracy from 73% to 96%, enhancing keypoint prediction reliability and precision."
+      "Improved keypoint prediction reliability and precision from 73% to 96% by fine-tuning the model and using dataset augmentation techniques."
     ],
   },
   {
@@ -187,11 +191,18 @@ const experiences = [
     iconBg: "#454545",
     date: "May 2024 - August 2024",
     points: [
-      "Developed a cross-platform mobile app using React Native with backend functionalities in Python.",
-      "Leveraged AWS for user authentication, data storage, and deployment.",
-      "Integrated real-time data processing and analytics features.",
-      "Collaborated with environmental scientists to optimize tree placement algorithms.",
-      "Successfully released the MVP with all the features, including creating polygons in Google Maps and optimizing tree placement."
+      "Developed a feature for users to select a tree planting area on a map within the app.",
+      "Created functionality for users to edit obstacles and choose tree types.",
+      "Designed algorithms for optimal tree placement based on planting density and soil conditions.",
+      "Implemented features for saving and viewing tree planting locations.",
+      "Conducted user testing and UI adjustments based on feedback.",
+      "Deployed the software on AWS.",
+      "Integrated Google Map plug-in, enabling users to select tree planting areas and polygons on the map, enhancing interaction.",
+      "Utilized image analysis technology to display obstacles and critical vegetation areas, improving planning accuracy.",
+      "Employed the circle packing algorithm for efficient tree placement within designated areas, optimizing space usage.",
+      "Successfully deployed the app on AWS, including authentication and establishing a comprehensive tree database.",
+      "Documented project processes, hosted daily scrum meetings, and facilitated cross-functional collaboration.",
+      "Led a team to deliver a Minimum Viable Product (MVP) on time within four months, demonstrating effective teamwork and leadership.",
     ],
   },
   {
@@ -205,7 +216,7 @@ const experiences = [
       "Employed Pyannote’s Vosk model to transcribe audio to text subtitles.",
       "Designed and implemented real-time speech processing pipelines.",
       "Conducted performance testing to ensure transcription accuracy and speed.",
-      "Reduced Word Error Rate (WER) from 0.40 to less than 0.10 percent."
+      "Reduced Word Error Rate (WER) from 0.40 to less than 0.10 percent after implementing Silero and Rnnoise models in the iOS system, significantly improving speech-to-text transcription accuracy and reliability."
     ],
   },
   {
